@@ -10,11 +10,11 @@ let object = {
 };
 
 Log.info(object);
-Log.info("Object", object, "String after object");
+Log.info("Object", object, "String after object.");
 
 let circural = object;
 circural.a = circural;
-Log.info("Circural Object", circural);
+Log.info("Circural object", circural);
 
 Log.warn("String", "Text string that is long enough.");
 
